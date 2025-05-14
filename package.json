@@ -11,5 +11,9 @@
   "devDependencies": {
     "typescript": "~5.8.3",
     "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "monaco-editor": "^0.52.2",
+    "vite-plugin-monaco-editor": "^1.1.0"
   }
 }
