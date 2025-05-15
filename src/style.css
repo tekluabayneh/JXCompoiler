@@ -66,11 +66,35 @@ button:focus-visible {
   width: 100%;
   z-index: 2;
   display: flex;
-  justify-content: space-between;
   gap: 5px;
   button {
     color: white;
   }
 }
-.sub_btn-container {
+
+.Result {
+  position: absolute;
+  inset: 0 0 0 0;
+  width: 500px;
+  height: auto;
+  border-radius: 0.5rem;
+  border: 1px solid #535bf2;
+  z-index: 5;
+  background-color: white;
+  display: none;
 }
+
+.Result_show {
+  display: block;
+}
+/* 
+.run {
+  position: absolute;
+  inset: 0 0 0 0;
+  width: 500px;
+  height: auto;
+  border-radius: 0.5rem;
+  border: 1px solid #535bf2;
+  z-index: 5;
+  background-color: white;
+} */
