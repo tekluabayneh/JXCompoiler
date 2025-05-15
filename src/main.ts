@@ -14,7 +14,7 @@ showBtn.addEventListener("click", toggleShowResult);
 let model = monaco.editor.createModel(
   `{
 NodeName:'h1',
-props:{ClassName:'container'},
+props:{ClassName:'heading'},
 children:["This is a default text from Teklu!"],
 }`,
   "javascript"
