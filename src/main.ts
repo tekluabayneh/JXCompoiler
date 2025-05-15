@@ -1,4 +1,3 @@
-import { helper } from "./helper";
 import "./style.css";
 import render from "./render";
 import * as monaco from "monaco-editor";
